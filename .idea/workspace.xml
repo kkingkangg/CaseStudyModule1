@@ -4,6 +4,8 @@
     <list default="true" id="22a2170a-61b3-4512-85a9-03612a9457e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../B16_OOPs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../B16_OOPs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BounceBall.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brick.js" beforeDir="false" afterPath="$PROJECT_DIR$/brick.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" beforeDir="false" afterPath="$PROJECT_DIR$/../b10_Loop/ltLoop02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b12_Mảng/.idea/workspace.xml" afterDir="false" />
@@ -85,7 +87,7 @@
       <workItem from="1599095982860" duration="11452000" />
       <workItem from="1599115092350" duration="13056000" />
       <workItem from="1599138929285" duration="14927000" />
-      <workItem from="1599181422537" duration="6207000" />
+      <workItem from="1599181422537" duration="8406000" />
     </task>
     <servers />
   </component>

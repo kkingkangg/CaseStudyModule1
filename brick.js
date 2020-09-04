@@ -6,9 +6,10 @@ function Brick(x, y, width, height, ball, bar) {
     this.ball = ball;
     this.bar = bar;
     this.list = [];
+    this.level = 1;
 
     this.touchedBricks = 0;
-    this.row = 2;
+    this.row = 1;
 
     this.prepareBricks = function () {
         this.list = [];
@@ -65,20 +66,21 @@ function Brick(x, y, width, height, ball, bar) {
                 document.getElementById('score').innerText = score;
                 this.touchedBricks++;
             }
-            // TODO: check va chạm (chỉ check những brick có isTouched = false), nếu chạm thì set isTouched = true cho brick
+            // check va chạm (chỉ check những brick có isTouched = false), nếu chạm thì set isTouched = true cho brick
             // tăng số lượng brick đã chạm (touchedBricks) lên 1
             // sau khi tăng, nếu số lượng brick đã chạm === số lượng bricks đã vẽ thì
             // tăng this.row thêm 1 nếu số row chưa đạt max, prepareBricks() lại và reset touchedBricks
         }
         if (this.touchedBricks == this.list.length) {
-            document.getElementById('over').innerText = "Level " + level;
             let row = this.row++;
             this.touchedBricks =0;
-            this.bar.x = 000;
+            this.bar.x = 200;
             this.ball.x = 235;
             this.ball.y = 585;
             this.prepareBricks();
             this.drawBrick();
+            this.level++;
+            document.getElementById('level').innerText = + this.level;
         }
 
     }
